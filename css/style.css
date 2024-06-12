@@ -1,0 +1,87 @@
+/*Overriding stylesheet for Capstone Project 2*/
+.gradient-background {
+  background: linear-gradient(300deg, #10253f, #1a3c5c, #7fa4a4);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white !important;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #10253f !important;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #10253f !important;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  color: #10253f !important;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  color: #10253f !important;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    color: #10253f !important;
+  }
+
+.feature-icon{
+  border-radius: 15% !important;
+}
+
+.resume {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul{
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-text {
+  color: white !important;
+}
